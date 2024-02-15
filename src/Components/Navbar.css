@@ -1,0 +1,38 @@
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid red;
+    padding-bottom: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    width: 5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.home {
+    height: 90vh;
+    display: flex;
+
+}
+
+.text-holder {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.first {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.second {
+    margin-top: 1rem;
+    font-size: 18px;
+    width: 500px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.img-holder {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe {
+    mix-blend-mode: darken;
+    width: 500px;
+    height: 500px;
+}
+
+.holder {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.shop {
+    margin-right: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.cat {
+    margin-top: 2rem;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
